@@ -1,0 +1,54 @@
+/*
+Theme Name: Google Algorithm
+Theme URI: https://googlealgorithm.com/
+Author: Chintan Trivedi
+Author URI: https://googlealgorithm.com
+Description: Created on custom requirement
+*/
+
+.header_mainsec .navbar .collapse .navbar-nav li .sub-menu {
+  display: none;
+}
+
+.header_mainsec .navbar .collapse .navbar-nav li:hover .sub-menu {
+  display: block;
+}
+
+.header_mainsec .navbar .collapse .navbar-nav li ul.sub-menu {
+  list-style: none;
+  position: absolute;
+  top: 30px;
+  left: 0px;
+  z-index: 9999;
+  width: 300px;
+  text-align: left;
+  background-color: #fff;
+  border-radius: 4px;
+  padding: 10px;
+  box-shadow: 0px 3px 8px 0px #32323285;
+}
+
+.header_mainsec .navbar .collapse .navbar-nav li .sub-menu li {
+  display: block;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.header_mainsec .navbar .collapse .navbar-nav li .sub-menu li:last-child {
+  border-bottom: none;
+}
+
+.header_mainsec .navbar .collapse .navbar-nav li .sub-menu li a {
+  color: #051431;
+  font-size: 15px;
+  display: block;
+  padding: 12px 0px;
+}
+
+.header_mainsec .navbar .collapse .navbar-nav li .sub-menu li a:hover {
+  color: #2ad275;
+}
+
+.form-group .form-control.error
+{
+  border-color: #f00;
+}
